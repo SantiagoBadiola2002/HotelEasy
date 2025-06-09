@@ -1,0 +1,46 @@
+# Ignorar carpeta target con compilados y empaquetados
+/target/
+
+# Ignorar archivos temporales y logs
+*.log
+logs/
+
+# Ignorar archivos y carpetas de Maven Wrapper excepto el jar necesario
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Ignorar configuraciones del IDE
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignorar archivos sensibles como credenciales
+application.properties
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
